@@ -9,6 +9,7 @@ st.title("Credit Risk Prediction")
 
 st.header("Enter the details to predict credit risk")
 
+
 Age = st.number_input("Age", min_value=0.0, step=0.1)
 Job = st.number_input("Job", min_value=0.0, step=0.1)
 CreditAmount = st.number_input("Credit Amount", min_value=0.0, step=0.1)
